@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+body {
+    font-family: 'Varela Round';
+}
+
+.container{
+    background-color: aliceblue;
+    width: 80%;
+}
+.button button{
+    text-align: center;
+}
+
+.button button {
+    
+}
+
+.button button {
+    background-color: aqua;
+    border-radius: 10px;
+    border: 0px;
+    padding: 5px;
+    margin: 10px 0px;
+    text-align: center;
+}
+
+.actions #pen {
+    color: rgb(255, 153, 0);
+}
+
+.actions #trash {
+    color: rgb(255, 0, 0);
+}
