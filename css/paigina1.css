@@ -2,33 +2,49 @@
 
 body {
     font-family: 'Varela Round';
+    margin: 20px;
 }
-
 .container{
     background-color: aliceblue;
     width: 80%;
 }
-.button button{
-    text-align: center;
+.titulo{
+    display: inline-block;
+    margin: 20px o;
+    width: 30%;
+    font-size: 30px;
+    text-align: left;
+}
+.addbutton{
+    display: inline-block;
+    width: 50%;
+    text-align: right;
+}
+.table {
+    color: #fff;
 }
 
-.button button {
+th {
+    background-color: #f2f2f2;
+}
+
+.button {
+    background-color: rgb(56, 156, 223);
+    margin-bottom: 10px;
     
-}
-
-.button button {
-    background-color: aqua;
-    border-radius: 10px;
-    border: 0px;
-    padding: 5px;
-    margin: 10px 0px;
-    text-align: center;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 15px;
+    cursor: pointer;
 }
 
 .actions #pen {
     color: rgb(255, 153, 0);
+    cursor: pointer;
 }
 
 .actions #trash {
     color: rgb(255, 0, 0);
+    cursor: pointer;
 }

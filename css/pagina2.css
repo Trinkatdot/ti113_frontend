@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+
+body {
+    font-family: 'Varela Round';
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 20px;
+}
+
+.header button {
+    background-color: white;
+    color: #007bff;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+td {
+    border: none;
+}
+
+ th, td {
+    border: none; /* Remove bordas das células */
+    padding: 8px;
+    text-align: left
+        }
+
+.actions {
+    width: 20px;
+    cursor: pointer;
+}
+
+.actions #gear {
+    color: #007bff;
+}
+
+.actions #ban {
+    color: rgb(255, 0, 0);
+}
+
+#active {
+    color: rgb(68, 231, 117);
+}
+
+#suspended {
+    color: rgb(231, 68, 68);
+}
+
+#inactive {
+    color: rgb(231, 215, 68);
+}
+#file {
+    color: rgb(87, 87, 87);
+    width: 10%;
+}
