@@ -1,0 +1,29 @@
+input {
+    padding: 5px;
+    border-radius: 5px;
+    border: 5px;
+    border-color: black;
+    background-color: #da7e7e;
+    margin: 5px 0px;
+}
+
+
+
+
+#btnmostrar  {
+    background-color: rgb(35, 180, 180);
+    color: #fff;
+    border: 0px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+input {
+    padding: 5px;
+    border-radius: 5px;
+    border: 5px;
+    border-color: black;
+    background-color: #afafaf;
+    margin: 5px 0px;
+}
+
