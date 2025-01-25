@@ -1,0 +1,122 @@
+body {
+    margin: 0;
+    font-size: 18px;
+}
+
+header {
+    background-color: #333;
+    color: #ddd;
+    height: 200px;
+}
+
+#titulo {
+    margin-bottom: 0;
+}
+
+#subtitulo {
+    margin-top: 2px;
+}
+
+#tab1 {
+    margin: 0 auto;
+    width: 75%;
+}
+
+#tab1 .linha1 input {
+    width: 40%;
+    background-color: #222;
+    padding: 6px;
+    border-width: 1px;
+    border-color: #ddd;
+}
+
+#tab1 .linha1 button {
+    background-color: orange;
+    color: #ddd;
+    padding: 7px 10px;
+}
+
+#tab1 .linha2 {
+    background-color: #222;
+}
+
+#tab1 .linha2 td {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #222;
+}
+
+#tab1 .linha2 td a {
+    color: #ddd;
+    text-decoration: none;
+}
+
+#tab1 {
+    margin: 30px auto;
+    width: 75%;
+}
+#tab2{
+    margin: 30px auto;
+    width: 75%;
+}
+
+#tab2 .col1 {
+    padding: 20px;
+    background-color: #444;
+    color: #aaa;
+}
+
+#tab2 h1 {
+    margin: 0;
+    font-size: 60px;
+}
+
+#tab2 .col1 a {
+    color: orange;
+    float: right;
+}
+
+#tab2 .col2 {
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+#tab3{
+    margin: 30px auto;
+    width: 75%;
+}
+#tab3 .col1 h2{
+    font-size: 30px;
+    color: #555;
+}
+#tab3 .col1 p{
+    color: #555;
+}
+#tab3 .col1 span{
+    color: orange;
+}
+#tab3 .quadrado{
+    background-color: #444;
+    color: white;
+    width: 150px;
+    height: 150px;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+#tab3 .borda{
+    display: inline-block;
+    border: 1px solid black;
+    padding: 5px;
+    margin: 5px;
+}
+#tab3 .linha2 .col2{
+    text-align: center;
+    padding: 20px;
+}
+#tab3 .linha2 a{
+    color: orange;
+}
