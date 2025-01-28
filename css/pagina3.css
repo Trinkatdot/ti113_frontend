@@ -1,49 +1,156 @@
-h1 {
-    background-color: #555;
-    color: white;
-    padding: 10px 0;
+* {
+    font-family: Arial, Helvetica, sans-serif;
 }
+
+
 
 .cabecalho {
     height: 100px;
-    background-color: gray;
+    background-color: #666;
 }
 
-#tab1 {
+#tab1  {
     width: 100%;
-    height: 40px;
+    height: 50px;
+    background-color: #444;
+    text-align: center;
 }
 
-#tab1 .linha2 {
-    background-color: #3f3e3e;
-    color: #fff;
-    text-decoration: none;
-
-}
-
-#tab1 a {
-    text-decoration: none;
+#tab1 td, #tab1 a {
     color: white;
-
+    text-decoration: none;
 }
-
-#tab3 {
-    width: 100%;
+ tr.linDestaque {
+    background-color: #444;
+    color: #fff;
+}
+#tab3 .destaque {
+    background-color: #444;
 }
 
 #tab4 {
+    height: 350px;
     background-color: #666;
     color: white;
-
 }
 
 #quadrado {
     background-color: white;
     width: 200px;
     height: 200px;
-    margin: 5px;
+    margin: 5px 15px 15px 15px;
 }
 
 button.btnLeiaMais {
     float: right;
 }
+
+#tab5 {
+    width: 100%;
+    margin-left: 5px ;
+}
+#tab5 input {
+    margin-left: 15px;
+    width: 95%;
+    height: 40px;
+}
+#menu_dir {
+    background-color: white;
+    width: 95%;
+    height: 100%;
+    margin: 5px 15px 15px 15px;
+    
+}
+#menu_dir li {
+    padding: 2px;
+    
+}
+
+#menu_dir h1 {
+    color: #fff;
+    background-color: #444;
+    padding: 10px;
+}
+.coluna2 {
+    
+    background-color: #666;    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* correção
+#quadrado {
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+    border: 1px solid black;
+}
+button .btnLeiaMais {
+    float: right;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
