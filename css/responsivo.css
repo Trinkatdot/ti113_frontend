@@ -1,0 +1,125 @@
+
+@media (max-width: 600px) {
+
+
+    .corpo #quadradinho1 {
+        
+        justify-content: center;
+        height: 100px;
+        width: 100px;
+        background-color: #ffffff;
+        border: 2px solid black;
+    }
+
+    .corpo #quadradinho2 {
+        
+        justify-content: center;
+        height: 100px;
+        width: 100px;
+        background-color: #141414;
+        border: 3px solid rgb(240, 32, 32);
+        border-style: dotted;
+    }
+
+    .corpo #quadradinho3 {
+        height: 100px;
+        width: 100px;
+        background-color: #dadd1d;
+        border: 2px solid #210af1;
+        border-style: dashed ;
+    }
+
+    .corpo #quadradinho4 {
+        height: 100px;
+        width: 100px;
+        background-color: #4415ec;
+        border: 3px solid #0af130;
+    }
+}
+@media (min-width: 600px) {
+
+
+    .corpo #quadradinho1 {
+        
+        justify-content: center;
+        height: 100px;
+        width: 100px;
+        background-color: #e9ec26;
+    }
+
+    .corpo #quadradinho2 {
+        height: 100px;
+        width: 100px;
+        background-color: #eb0fff;
+    }
+
+    .corpo #quadradinho3 {
+        height: 100px;
+        width: 100px;
+        background-color: #bc66d1;
+    }
+
+    .corpo #quadradinho4 {
+        height: 100px;
+        width: 100px;
+        background-color: #000000;
+    }
+}
+@media (min-width: 800px) {
+
+
+    .corpo #quadradinho1 {
+        
+        justify-content: center;
+        height: 100px;
+        width: 100px;
+        background-color: #131313;
+    }
+
+    .corpo #quadradinho2 {
+        height: 100px;
+        width: 100px;
+        background-color: #ff0f0f;
+    }
+
+    .corpo #quadradinho3 {
+        height: 100px;
+        width: 100px;
+        background-color: #970cb9;
+    }
+
+    .corpo #quadradinho4 {
+        height: 100px;
+        width: 100px;
+        background-color: #0311e0;
+    }
+}
+@media (min-width: 1000px) {
+
+
+    .corpo #quadradinho1 {
+        
+        justify-content: center;
+        height: 100px;
+        width: 100px;
+        background-color: #14f832;
+    }
+
+    .corpo #quadradinho2 {
+        height: 100px;
+        width: 100px;
+        background-color: #ffef0f;
+    }
+
+    .corpo #quadradinho3 {
+        height: 100px;
+        width: 100px;
+        background-color: #281be6;
+    }
+
+    .corpo #quadradinho4 {
+        height: 100px;
+        width: 100px;
+        background-color: #4b4b4b;
+    }
+}

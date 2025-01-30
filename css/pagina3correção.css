@@ -28,8 +28,8 @@ tr.linDestaque {
 }
 
 #quadrado {
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     margin: 20px;
     border: 1px solid black;
 }
@@ -38,6 +38,15 @@ tr.linDestaque {
     display: inline-block;
     width: 120px;
     height: 120px;
-    margin: 5px;
+    margin: 6px;
     border: 1px solid black;
+}
+.linMontandoLayout{
+    background-color: #666;
+}
+.linMontandoLayout #quadrado {
+    background-color: white;
+}
+.btnLeiaMais {
+   float: right;
 }

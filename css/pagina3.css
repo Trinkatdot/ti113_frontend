@@ -45,36 +45,16 @@ button.btnLeiaMais {
     float: right;
 }
 
-#tab5 {
-    width: 100%;
-    margin-left: 5px ;
-}
-#tab5 input {
-    margin-left: 15px;
-    width: 95%;
+#tab3 h3{ 
+    background-color: #444;
+    width: 200px;
     height: 40px;
-}
-#menu_dir {
-    background-color: white;
-    width: 95%;
-    height: 100%;
-    margin: 5px 15px 15px 15px;
-    
-}
-#menu_dir li {
-    padding: 2px;
-    
+    justify-content: center;
+    align-items: center;
+    color: #fff;
 }
 
-#menu_dir h1 {
-    color: #fff;
-    background-color: #444;
-    padding: 10px;
-}
-.coluna2 {
-    
-    background-color: #666;    
-}
+
 
 
 
