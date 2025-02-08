@@ -1,0 +1,96 @@
+@import url(../css/reset.css);
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    font-family: 'Roboto', 'sans-serif';
+}
+
+main.container {
+    height: 100vh;
+    background: #020024;
+    background: linear-gradient(90deg,
+            #020024 0%,
+            #090979 35%,
+            #00d4ff 100%);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    width: 300px;
+    height: 530px;
+    margin: 20px 0;
+}
+
+section.imagem {
+    background-image: url(../img/bg_login.jpg);
+    background-size: cover;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+section.formulario {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+form {
+    width: 100%;
+}
+
+form h3 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+form input {
+    width: 85%;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 15px;
+    border: 1px solid #666;
+}
+
+form button {
+    margin: 10px;
+    border-radius: 15px;
+    border: 0;
+    padding: 10px;
+    color: white;
+    text-transform: uppercase;
+}
+
+form hr {
+    width: 85%;
+}
+
+form button.btnRegsitrer {
+    background-color: #0062ff;
+}
+
+form button.btnGoogle {
+    background-color: #053763;
+}
+
+form button.btnFacebook {
+    background-color: #ff3700;
+}
+
+form a {
+    text-decoration: none;
+    text-align: center;
+    font-size: 18px;
+    margin: 0 10px 10px 10px;
+}
+form i {
+    margin-right: 7px;
+}
