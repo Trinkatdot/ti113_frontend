@@ -10,28 +10,37 @@
 
 <body>
     <main class="container">
-        <section class="imagem"></section>
+        <section class="imagem">
+
+        </section>
         <section class="formulario">
             <div>
                 <form action="#" method="get">
                     <h3>Register</h3>
-                    <input type="text" placeholder="Username">
-                    <input type="email" placeholder="Email Address">
-
+                    <input id="txtUsername" type="text" placeholder="Username">
+                    <input id="txtEmail" type="email" placeholder="Email Address">
                     <hr>
-                    <input type="password" placeholder="Password">
-                    <input type="password" placeholder="Confirm Password">
+
+                    <input id="txtPassword" type="password" placeholder="Password">
+                    <input id="txtConfirmPassword" type="password" placeholder="Confirm Password">
                     <button class="btnRegsitrer">Register</button>
                     <a href="#">Sign in</a>
-
                     <hr>
-                    <button class="btnFacebook"> <i class="fa-brands fa-google"></i>Sign up with Facebook</button>
-                    <button class="btnGoogle"> <i class="fa-brands fa-facebook"></i> Sign up with Google</button>
+
+                    <button class="btnGoogle">
+                        <i class="fa-brands fa-facebook"></i>
+                        Sign up with Google
+                    </button>
+                    <button class="btnFacebook">
+                        <i class="fa-brands fa-google"></i>
+                        Sign up with Facebook
+                    </button>
                 </form>
 
             </div>
         </section>
     </main>
+    <script src="./script.js"></script>
 </body>
 
 </html>
